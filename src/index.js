@@ -11,8 +11,8 @@ fetchBreeds()
 })
 .catch(() => {
     paragraphError.removeAttribute('hidden')    
-    select.setAttribute("hidden", true)
-    div.setAttribute("hidden", true)
+    select.setAttribute("hidden", true) 
+div.style.display = 'none'
    }
   )
 .finally(() => paragraphLoading.setAttribute("hidden", true))
